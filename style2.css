@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2ff;
+}
+
+header {
+    background-color: #0033cc;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.login {
+    background-color: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login button {
+    background-color: #0033cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #0044ff;
+}
+
+.services {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f5f5ff;
+}
+
+.info {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #0033cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive layout */
+@media (max-width: 480px) {
+    .login {
+        width: 90%;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
